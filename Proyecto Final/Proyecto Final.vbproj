@@ -138,6 +138,9 @@
     <EmbeddedResource Include="frmLogIn.resx">
       <DependentUpon>frmLogIn.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmRegistro.resx">
       <DependentUpon>frmRegistro.vb</DependentUpon>
     </EmbeddedResource>
@@ -159,6 +162,15 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo HUERGO GAMING.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo HUERGO GAMING1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monitor-dibujo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

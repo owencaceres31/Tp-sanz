@@ -11,3 +11,4 @@ D:\Users\mfucc\Documents\.Huergo - 6° AO\Desarrollo de Sistemas\TP Final\Proyec
 D:\Users\mfucc\Documents\.Huergo - 6° AO\Desarrollo de Sistemas\TP Final\Proyecto Final\Proyecto Final\obj\Debug\Proyecto Final.exe
 D:\Users\mfucc\Documents\.Huergo - 6° AO\Desarrollo de Sistemas\TP Final\Proyecto Final\Proyecto Final\obj\Debug\Proyecto Final.xml
 D:\Users\mfucc\Documents\.Huergo - 6° AO\Desarrollo de Sistemas\TP Final\Proyecto Final\Proyecto Final\obj\Debug\Proyecto Final.pdb
+D:\Users\mfucc\Documents\.Huergo - 6° AO\Desarrollo de Sistemas\TP Final\Proyecto Final\Proyecto Final\obj\Debug\Proyecto_Final.frmPrincipal.resources

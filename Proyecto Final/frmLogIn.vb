@@ -16,7 +16,7 @@
         lblError.Text = ""
 
         If txtUsuario.Text = "admin" And txtContraseña.Text = "admin" Then
-            'frmMenu.Show()
+            frmPrincipal.Show()
             Me.Hide()
             txtUsuario.Text = ""
             txtContraseña.Text = ""
@@ -42,7 +42,7 @@
                         FileClose(1)
                         txtUsuario.Text = ""
                         txtContraseña.Text = ""
-                        'frmMenu.Show()
+                        frmPrincipal.Show()
                         Me.Hide()
                         Exit Sub
                     Else
