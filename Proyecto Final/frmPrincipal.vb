@@ -17,6 +17,7 @@
             Apellido = ""
             DNI = 0
             Correo = ""
+            Direccion = ""
             Usuario = ""
             Contraseña = ""
 
@@ -30,6 +31,12 @@
     Private Sub tsbMisDatos_Click(sender As Object, e As EventArgs) Handles tsbMisDatos.Click
 
         frmDatosCliente.Show()
+
+    End Sub
+
+    Private Sub frmPrincipal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+        tslBienvenido.Text = "Bienvenido " + Nombre + " " + Apellido + " " + "(" + Usuario + ") !"
 
     End Sub
 End Class

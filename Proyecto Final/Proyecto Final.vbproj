@@ -135,6 +135,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmCarrito.resx">
+      <DependentUpon>frmCarrito.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmDatosCliente.resx">
       <DependentUpon>frmDatosCliente.vb</DependentUpon>
     </EmbeddedResource>
