@@ -157,4 +157,64 @@
   <data name="i9x" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\i9x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="BarracudaPro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BarracudaPro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Firecuda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Firecuda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ryzen5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ryzen5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ryzen53400" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ryzen53400.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ryzen7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ryzen7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ryzen9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ryzen9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="threadreaper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\threadreaper.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="titan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\titan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VEGA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VEGA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1650" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1650.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2060" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2060.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2080" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2080.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3090" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3090.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5500" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5500.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5700" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5700.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6800" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6800.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6900" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6900.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

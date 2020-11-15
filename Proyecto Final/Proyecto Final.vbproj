@@ -215,5 +215,65 @@
   <ItemGroup>
     <None Include="Resources\i9.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ryzen5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\threadreaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ryzen53400.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ryzen9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ryzen7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2080.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1650.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3090.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2060.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\titan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6900.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5500.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6800.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VEGA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5700.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BarracudaPro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Firecuda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gold.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

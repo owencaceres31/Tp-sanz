@@ -52,7 +52,6 @@ Partial Class frmPrincipal
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.tslBienvenido = New System.Windows.Forms.ToolStripLabel()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.imgDefault = New System.Windows.Forms.PictureBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -63,15 +62,16 @@ Partial Class frmPrincipal
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
+        Me.imgDefault = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.ToolStrip1.SuspendLayout()
         Me.Panel1.SuspendLayout()
-        CType(Me.imgDefault, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.imgDefault, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -291,17 +291,6 @@ Partial Class frmPrincipal
         Me.Panel1.Size = New System.Drawing.Size(1388, 338)
         Me.Panel1.TabIndex = 2
         '
-        'imgDefault
-        '
-        Me.imgDefault.Image = Global.Proyecto_Final.My.Resources.Resources.auriculares
-        Me.imgDefault.Location = New System.Drawing.Point(-12, 556)
-        Me.imgDefault.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.imgDefault.Name = "imgDefault"
-        Me.imgDefault.Size = New System.Drawing.Size(1454, 618)
-        Me.imgDefault.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.imgDefault.TabIndex = 3
-        Me.imgDefault.TabStop = False
-        '
         'Label5
         '
         Me.Label5.AutoSize = True
@@ -358,6 +347,7 @@ Partial Class frmPrincipal
         Me.PictureBox5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(225, 231)
+        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox5.TabIndex = 8
         Me.PictureBox5.TabStop = False
         '
@@ -367,6 +357,7 @@ Partial Class frmPrincipal
         Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(225, 231)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox3.TabIndex = 7
         Me.PictureBox3.TabStop = False
         '
@@ -376,6 +367,7 @@ Partial Class frmPrincipal
         Me.PictureBox4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(225, 231)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox4.TabIndex = 6
         Me.PictureBox4.TabStop = False
         '
@@ -385,6 +377,7 @@ Partial Class frmPrincipal
         Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(225, 231)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 5
         Me.PictureBox2.TabStop = False
         '
@@ -394,8 +387,20 @@ Partial Class frmPrincipal
         Me.PictureBox6.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(225, 231)
+        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox6.TabIndex = 4
         Me.PictureBox6.TabStop = False
+        '
+        'imgDefault
+        '
+        Me.imgDefault.Image = Global.Proyecto_Final.My.Resources.Resources.auriculares
+        Me.imgDefault.Location = New System.Drawing.Point(-12, 556)
+        Me.imgDefault.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.imgDefault.Name = "imgDefault"
+        Me.imgDefault.Size = New System.Drawing.Size(1454, 618)
+        Me.imgDefault.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.imgDefault.TabIndex = 3
+        Me.imgDefault.TabStop = False
         '
         'PictureBox1
         '
@@ -424,12 +429,12 @@ Partial Class frmPrincipal
         Me.ToolStrip1.PerformLayout()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
-        CType(Me.imgDefault, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.imgDefault, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
