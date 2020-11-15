@@ -35,6 +35,7 @@
                     Input(1, Nombre)
                     Input(1, Apellido)
                     Input(1, DNI)
+                    Input(1, Direccion)
                     Input(1, Correo)
                     Input(1, Usuario)
                     Input(1, Contraseña)

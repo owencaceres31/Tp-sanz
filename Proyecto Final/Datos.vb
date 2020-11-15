@@ -6,5 +6,6 @@
     Public Correo As String
     Public Usuario As String
     Public Contraseña As String
+    Public Direccion As String
 
 End Module

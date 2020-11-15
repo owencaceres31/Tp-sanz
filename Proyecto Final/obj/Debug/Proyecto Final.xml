@@ -22,6 +22,26 @@ Proyecto Final
   búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
 </summary>
 </member>
+<member name="P:Proyecto_Final.My.Resources.Resources.AMD_Arrows">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Proyecto_Final.My.Resources.Resources.auriculares">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Proyecto_Final.My.Resources.Resources.datos">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Proyecto_Final.My.Resources.Resources.images">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Proyecto_Final.My.Resources.Resources.Logo_HUERGO_GAMING">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
@@ -33,6 +53,11 @@ Proyecto Final
 </summary>
 </member>
 <member name="P:Proyecto_Final.My.Resources.Resources.monitor_dibujo">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Proyecto_Final.My.Resources.Resources.NVIDIA_Color">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>

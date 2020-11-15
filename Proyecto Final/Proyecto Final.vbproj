@@ -135,6 +135,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmDatosCliente.resx">
+      <DependentUpon>frmDatosCliente.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLogIn.resx">
       <DependentUpon>frmLogIn.vb</DependentUpon>
     </EmbeddedResource>
@@ -171,6 +174,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\monitor-dibujo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\datos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AMD_Arrows.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NVIDIA-Color.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auriculares.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

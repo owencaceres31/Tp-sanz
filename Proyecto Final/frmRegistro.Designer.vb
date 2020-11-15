@@ -46,6 +46,13 @@ Partial Class frmRegistro
         Me.lblDNI = New System.Windows.Forms.Label()
         Me.lblApellido = New System.Windows.Forms.Label()
         Me.lblNombre = New System.Windows.Forms.Label()
+        Me.lblDirección = New System.Windows.Forms.Label()
+        Me.lblCalle = New System.Windows.Forms.Label()
+        Me.lblAltura = New System.Windows.Forms.Label()
+        Me.txtAltura = New System.Windows.Forms.TextBox()
+        Me.txtCalle = New System.Windows.Forms.TextBox()
+        Me.lblECalle = New System.Windows.Forms.Label()
+        Me.lblEAltura = New System.Windows.Forms.Label()
         Me.gbErrores.SuspendLayout()
         CType(Me.imgContraseña, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -56,7 +63,7 @@ Partial Class frmRegistro
         Me.lblLogIn.Cursor = System.Windows.Forms.Cursors.Hand
         Me.lblLogIn.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblLogIn.ForeColor = System.Drawing.SystemColors.MenuHighlight
-        Me.lblLogIn.Location = New System.Drawing.Point(186, 216)
+        Me.lblLogIn.Location = New System.Drawing.Point(186, 253)
         Me.lblLogIn.Name = "lblLogIn"
         Me.lblLogIn.Size = New System.Drawing.Size(68, 13)
         Me.lblLogIn.TabIndex = 41
@@ -64,15 +71,17 @@ Partial Class frmRegistro
         '
         'gbErrores
         '
+        Me.gbErrores.Controls.Add(Me.lblEAltura)
+        Me.gbErrores.Controls.Add(Me.lblECalle)
         Me.gbErrores.Controls.Add(Me.lblEContraseña)
         Me.gbErrores.Controls.Add(Me.lblEUsuario)
         Me.gbErrores.Controls.Add(Me.lblECorreo)
         Me.gbErrores.Controls.Add(Me.lblEDNI)
         Me.gbErrores.Controls.Add(Me.lblEApellido)
         Me.gbErrores.Controls.Add(Me.lblENombre)
-        Me.gbErrores.Location = New System.Drawing.Point(30, 236)
+        Me.gbErrores.Location = New System.Drawing.Point(30, 273)
         Me.gbErrores.Name = "gbErrores"
-        Me.gbErrores.Size = New System.Drawing.Size(384, 95)
+        Me.gbErrores.Size = New System.Drawing.Size(384, 113)
         Me.gbErrores.TabIndex = 40
         Me.gbErrores.TabStop = False
         Me.gbErrores.Text = "Información sobre Errores"
@@ -133,7 +142,7 @@ Partial Class frmRegistro
         '
         'cmdRegistrarse
         '
-        Me.cmdRegistrarse.Location = New System.Drawing.Point(124, 185)
+        Me.cmdRegistrarse.Location = New System.Drawing.Point(124, 222)
         Me.cmdRegistrarse.Name = "cmdRegistrarse"
         Me.cmdRegistrarse.Size = New System.Drawing.Size(192, 23)
         Me.cmdRegistrarse.TabIndex = 38
@@ -144,7 +153,7 @@ Partial Class frmRegistro
         '
         Me.cbCorreo.FormattingEnabled = True
         Me.cbCorreo.Items.AddRange(New Object() {"@gmail.com", "@hotmail.com", "@outlook.com", "@alumno.huergo.edu.ar", "@huergo.edu.ar"})
-        Me.cbCorreo.Location = New System.Drawing.Point(295, 100)
+        Me.cbCorreo.Location = New System.Drawing.Point(296, 129)
         Me.cbCorreo.Name = "cbCorreo"
         Me.cbCorreo.Size = New System.Drawing.Size(79, 21)
         Me.cbCorreo.TabIndex = 37
@@ -154,7 +163,7 @@ Partial Class frmRegistro
         '
         Me.imgContraseña.Cursor = System.Windows.Forms.Cursors.Hand
         Me.imgContraseña.Image = CType(resources.GetObject("imgContraseña.Image"), System.Drawing.Image)
-        Me.imgContraseña.Location = New System.Drawing.Point(353, 153)
+        Me.imgContraseña.Location = New System.Drawing.Point(354, 182)
         Me.imgContraseña.Name = "imgContraseña"
         Me.imgContraseña.Size = New System.Drawing.Size(21, 20)
         Me.imgContraseña.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -163,7 +172,7 @@ Partial Class frmRegistro
         '
         'txtContraseña
         '
-        Me.txtContraseña.Location = New System.Drawing.Point(159, 153)
+        Me.txtContraseña.Location = New System.Drawing.Point(160, 182)
         Me.txtContraseña.Name = "txtContraseña"
         Me.txtContraseña.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.txtContraseña.Size = New System.Drawing.Size(188, 20)
@@ -171,14 +180,14 @@ Partial Class frmRegistro
         '
         'txtUsuario
         '
-        Me.txtUsuario.Location = New System.Drawing.Point(159, 127)
+        Me.txtUsuario.Location = New System.Drawing.Point(160, 156)
         Me.txtUsuario.Name = "txtUsuario"
         Me.txtUsuario.Size = New System.Drawing.Size(215, 20)
         Me.txtUsuario.TabIndex = 34
         '
         'txtCorreo
         '
-        Me.txtCorreo.Location = New System.Drawing.Point(159, 100)
+        Me.txtCorreo.Location = New System.Drawing.Point(160, 129)
         Me.txtCorreo.Name = "txtCorreo"
         Me.txtCorreo.Size = New System.Drawing.Size(130, 20)
         Me.txtCorreo.TabIndex = 33
@@ -207,7 +216,7 @@ Partial Class frmRegistro
         'lblContraseña
         '
         Me.lblContraseña.AutoSize = True
-        Me.lblContraseña.Location = New System.Drawing.Point(73, 157)
+        Me.lblContraseña.Location = New System.Drawing.Point(74, 186)
         Me.lblContraseña.Name = "lblContraseña"
         Me.lblContraseña.Size = New System.Drawing.Size(61, 13)
         Me.lblContraseña.TabIndex = 29
@@ -216,7 +225,7 @@ Partial Class frmRegistro
         'lblUsuario
         '
         Me.lblUsuario.AutoSize = True
-        Me.lblUsuario.Location = New System.Drawing.Point(91, 131)
+        Me.lblUsuario.Location = New System.Drawing.Point(92, 160)
         Me.lblUsuario.Name = "lblUsuario"
         Me.lblUsuario.Size = New System.Drawing.Size(43, 13)
         Me.lblUsuario.TabIndex = 28
@@ -225,7 +234,7 @@ Partial Class frmRegistro
         'lblCorreo
         '
         Me.lblCorreo.AutoSize = True
-        Me.lblCorreo.Location = New System.Drawing.Point(96, 104)
+        Me.lblCorreo.Location = New System.Drawing.Point(97, 133)
         Me.lblCorreo.Name = "lblCorreo"
         Me.lblCorreo.Size = New System.Drawing.Size(38, 13)
         Me.lblCorreo.TabIndex = 27
@@ -258,11 +267,77 @@ Partial Class frmRegistro
         Me.lblNombre.TabIndex = 23
         Me.lblNombre.Text = "Nombre"
         '
+        'lblDirección
+        '
+        Me.lblDirección.AutoSize = True
+        Me.lblDirección.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblDirección.Location = New System.Drawing.Point(59, 103)
+        Me.lblDirección.Name = "lblDirección"
+        Me.lblDirección.Size = New System.Drawing.Size(65, 13)
+        Me.lblDirección.TabIndex = 42
+        Me.lblDirección.Text = "Dirección:"
+        '
+        'lblCalle
+        '
+        Me.lblCalle.AutoSize = True
+        Me.lblCalle.Location = New System.Drawing.Point(124, 103)
+        Me.lblCalle.Name = "lblCalle"
+        Me.lblCalle.Size = New System.Drawing.Size(30, 13)
+        Me.lblCalle.TabIndex = 43
+        Me.lblCalle.Text = "Calle"
+        '
+        'lblAltura
+        '
+        Me.lblAltura.AutoSize = True
+        Me.lblAltura.Location = New System.Drawing.Point(287, 103)
+        Me.lblAltura.Name = "lblAltura"
+        Me.lblAltura.Size = New System.Drawing.Size(34, 13)
+        Me.lblAltura.TabIndex = 44
+        Me.lblAltura.Text = "Altura"
+        '
+        'txtAltura
+        '
+        Me.txtAltura.Location = New System.Drawing.Point(321, 100)
+        Me.txtAltura.MaxLength = 5
+        Me.txtAltura.Name = "txtAltura"
+        Me.txtAltura.Size = New System.Drawing.Size(54, 20)
+        Me.txtAltura.TabIndex = 45
+        '
+        'txtCalle
+        '
+        Me.txtCalle.Location = New System.Drawing.Point(160, 100)
+        Me.txtCalle.Name = "txtCalle"
+        Me.txtCalle.Size = New System.Drawing.Size(122, 20)
+        Me.txtCalle.TabIndex = 46
+        '
+        'lblECalle
+        '
+        Me.lblECalle.AutoSize = True
+        Me.lblECalle.Location = New System.Drawing.Point(13, 88)
+        Me.lblECalle.Name = "lblECalle"
+        Me.lblECalle.Size = New System.Drawing.Size(30, 13)
+        Me.lblECalle.TabIndex = 7
+        Me.lblECalle.Text = "Calle"
+        '
+        'lblEAltura
+        '
+        Me.lblEAltura.AutoSize = True
+        Me.lblEAltura.Location = New System.Drawing.Point(191, 88)
+        Me.lblEAltura.Name = "lblEAltura"
+        Me.lblEAltura.Size = New System.Drawing.Size(34, 13)
+        Me.lblEAltura.TabIndex = 8
+        Me.lblEAltura.Text = "Altura"
+        '
         'frmRegistro
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(438, 367)
+        Me.ClientSize = New System.Drawing.Size(438, 398)
+        Me.Controls.Add(Me.txtCalle)
+        Me.Controls.Add(Me.txtAltura)
+        Me.Controls.Add(Me.lblAltura)
+        Me.Controls.Add(Me.lblCalle)
+        Me.Controls.Add(Me.lblDirección)
         Me.Controls.Add(Me.lblLogIn)
         Me.Controls.Add(Me.gbErrores)
         Me.Controls.Add(Me.cmdRegistrarse)
@@ -313,4 +388,11 @@ Partial Class frmRegistro
     Friend WithEvents lblDNI As Label
     Friend WithEvents lblApellido As Label
     Friend WithEvents lblNombre As Label
+    Friend WithEvents lblDirección As Label
+    Friend WithEvents lblCalle As Label
+    Friend WithEvents lblAltura As Label
+    Friend WithEvents txtAltura As TextBox
+    Friend WithEvents txtCalle As TextBox
+    Friend WithEvents lblEAltura As Label
+    Friend WithEvents lblECalle As Label
 End Class

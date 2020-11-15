@@ -63,6 +63,46 @@ Namespace My.Resources
         '''<summary>
         '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property AMD_Arrows() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("AMD_Arrows", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property auriculares() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("auriculares", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property datos() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("datos", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property images() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("images", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property Logo_HUERGO_GAMING() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Logo HUERGO GAMING", resourceCulture)
@@ -86,6 +126,16 @@ Namespace My.Resources
         Friend ReadOnly Property monitor_dibujo() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("monitor-dibujo", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property NVIDIA_Color() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("NVIDIA-Color", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

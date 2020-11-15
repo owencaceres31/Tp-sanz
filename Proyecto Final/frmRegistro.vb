@@ -8,6 +8,8 @@
         txtCorreo.Text = ""
         txtDNI.Text = ""
         txtUsuario.Text = ""
+        txtAltura.Text = ""
+        txtCalle.Text = ""
 
     End Sub
 
@@ -50,6 +52,25 @@
                     lblEDNI.Text = "DNI: Cantidad de Dígitos Incorrecta"
                     cantErrores += 1
                 End If
+            End If
+        End If
+
+        If txtCalle.Text = "" Then
+            lblECalle.Text = "Ingrese una calle."
+            cantErrores += 1
+        Else
+            lblECalle.Text = "Calle: ✔"
+        End If
+
+        If txtAltura.Text = "" Then
+            lblEAltura.Text = "Ingrese una altura."
+            cantErrores += 1
+        Else
+            If Not IsNumeric(txtAltura.Text) Then
+                lblEAltura.Text = "Altura: Formato Incorrecto"
+                cantErrores += 1
+            Else
+                lblEAltura.Text = "Altura: ✔"
             End If
         End If
 
@@ -108,6 +129,7 @@
             Write(1, txtNombre.Text,
                   txtApellido.Text,
                   txtDNI.Text,
+                  txtCalle.Text + " " + txtAltura.Text,
                   txtCorreo.Text + cbCorreo.SelectedItem.ToString(),
                   txtUsuario.Text,
                   txtContraseña.Text)
@@ -140,4 +162,6 @@
         Me.Hide()
 
     End Sub
+
+
 End Class
