@@ -13,3 +13,19 @@ D:\Users\mfucc\Documents\.Huergo - 6° AO\Desarrollo de Sistemas\TP Final\Proyec
 D:\Users\mfucc\Documents\.Huergo - 6° AO\Desarrollo de Sistemas\TP Final\Proyecto Final\Proyecto Final\obj\Debug\Proyecto Final.pdb
 D:\Users\mfucc\Documents\.Huergo - 6° AO\Desarrollo de Sistemas\TP Final\Proyecto Final\Proyecto Final\obj\Debug\Proyecto_Final.frmPrincipal.resources
 D:\Users\mfucc\Documents\.Huergo - 6° AO\Desarrollo de Sistemas\TP Final\Proyecto Final\Proyecto Final\obj\Debug\Proyecto_Final.frmDatosCliente.resources
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\TP-Final---Desarrollo-de-Sistemas\Proyecto Final\bin\Debug\Proyecto Final.exe.config
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\TP-Final---Desarrollo-de-Sistemas\Proyecto Final\bin\Debug\Proyecto Final.exe
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\TP-Final---Desarrollo-de-Sistemas\Proyecto Final\bin\Debug\Proyecto Final.pdb
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\TP-Final---Desarrollo-de-Sistemas\Proyecto Final\bin\Debug\Proyecto Final.xml
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\TP-Final---Desarrollo-de-Sistemas\Proyecto Final\obj\Debug\Proyecto Final.vbprojAssemblyReference.cache
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\TP-Final---Desarrollo-de-Sistemas\Proyecto Final\obj\Debug\Proyecto_Final.frmCarrito.resources
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\TP-Final---Desarrollo-de-Sistemas\Proyecto Final\obj\Debug\Proyecto_Final.frmDatosCliente.resources
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\TP-Final---Desarrollo-de-Sistemas\Proyecto Final\obj\Debug\Proyecto_Final.frmLogIn.resources
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\TP-Final---Desarrollo-de-Sistemas\Proyecto Final\obj\Debug\Proyecto_Final.frmPrincipal.resources
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\TP-Final---Desarrollo-de-Sistemas\Proyecto Final\obj\Debug\Proyecto_Final.frmRegistro.resources
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\TP-Final---Desarrollo-de-Sistemas\Proyecto Final\obj\Debug\Proyecto_Final.Resources.resources
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\TP-Final---Desarrollo-de-Sistemas\Proyecto Final\obj\Debug\Proyecto Final.vbproj.GenerateResource.cache
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\TP-Final---Desarrollo-de-Sistemas\Proyecto Final\obj\Debug\Proyecto Final.vbproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\TP-Final---Desarrollo-de-Sistemas\Proyecto Final\obj\Debug\Proyecto Final.exe
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\TP-Final---Desarrollo-de-Sistemas\Proyecto Final\obj\Debug\Proyecto Final.xml
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\TP-Final---Desarrollo-de-Sistemas\Proyecto Final\obj\Debug\Proyecto Final.pdb
