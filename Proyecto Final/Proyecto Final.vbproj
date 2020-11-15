@@ -177,6 +177,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\kc2000.webp" />
     <None Include="Resources\Logo HUERGO GAMING.png" />
   </ItemGroup>
   <ItemGroup>
@@ -274,6 +275,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\gold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\samsung.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crucial.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sn550.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\force.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kc2000.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stinger.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RAZER.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kraken.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\revolver.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

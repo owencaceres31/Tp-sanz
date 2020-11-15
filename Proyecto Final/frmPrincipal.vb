@@ -117,26 +117,26 @@
         Label3.Text = "WD Blue SN550 240GB"
         Label4.Text = "Crucial MX500 240GB"
         Label5.Text = "Samsung SSD 970 Evo Plus 240GB"
-        PictureBox6.Image = My.Resources.i9x
-        PictureBox4.Image = My.Resources.i9
-        PictureBox2.Image = My.Resources.i7
-        PictureBox3.Image = My.Resources.i5
-        PictureBox5.Image = My.Resources.i3
+        PictureBox6.Image = My.Resources.force
+        PictureBox4.Image = My.Resources.kc20001
+        PictureBox2.Image = My.Resources.sn550
+        PictureBox3.Image = My.Resources.crucial
+        PictureBox5.Image = My.Resources.samsung
         imgDefault.Visible = False
     End Sub
 
     Private Sub AuricularesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AuricularesToolStripMenuItem.Click
         tipoproducto = "Auricular"
         Label1.Text = "Astro A40 TR + MIXAMP PRO TR"
-        Label2.Text = "Logitech G635"
+        Label2.Text = "Razer kraken"
         Label3.Text = "HyperX Cloud Stinger"
         Label4.Text = "HyperX Cloud Revolver S"
         Label5.Text = "Razer Thresher Ultimate"
-        PictureBox6.Image = My.Resources.i9x
-        PictureBox4.Image = My.Resources.i9
-        PictureBox2.Image = My.Resources.i7
-        PictureBox3.Image = My.Resources.i5
-        PictureBox5.Image = My.Resources.i3
+        PictureBox6.Image = My.Resources.a40
+        PictureBox4.Image = My.Resources.kraken
+        PictureBox2.Image = My.Resources.stinger
+        PictureBox3.Image = My.Resources.revolver
+        PictureBox5.Image = My.Resources.RAZER
         imgDefault.Visible = False
     End Sub
 
