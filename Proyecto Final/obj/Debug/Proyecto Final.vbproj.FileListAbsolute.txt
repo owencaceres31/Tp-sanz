@@ -29,3 +29,19 @@ C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\TP-Final---Desarroll
 C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\TP-Final---Desarrollo-de-Sistemas\Proyecto Final\obj\Debug\Proyecto Final.exe
 C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\TP-Final---Desarrollo-de-Sistemas\Proyecto Final\obj\Debug\Proyecto Final.xml
 C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\TP-Final---Desarrollo-de-Sistemas\Proyecto Final\obj\Debug\Proyecto Final.pdb
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\mi repo\Tp-sanz\Proyecto Final\bin\Debug\Proyecto Final.exe.config
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\mi repo\Tp-sanz\Proyecto Final\bin\Debug\Proyecto Final.exe
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\mi repo\Tp-sanz\Proyecto Final\bin\Debug\Proyecto Final.pdb
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\mi repo\Tp-sanz\Proyecto Final\bin\Debug\Proyecto Final.xml
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\mi repo\Tp-sanz\Proyecto Final\obj\Debug\Proyecto Final.vbprojAssemblyReference.cache
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\mi repo\Tp-sanz\Proyecto Final\obj\Debug\Proyecto_Final.frmCarrito.resources
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\mi repo\Tp-sanz\Proyecto Final\obj\Debug\Proyecto_Final.frmDatosCliente.resources
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\mi repo\Tp-sanz\Proyecto Final\obj\Debug\Proyecto_Final.frmLogIn.resources
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\mi repo\Tp-sanz\Proyecto Final\obj\Debug\Proyecto_Final.frmPrincipal.resources
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\mi repo\Tp-sanz\Proyecto Final\obj\Debug\Proyecto_Final.frmRegistro.resources
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\mi repo\Tp-sanz\Proyecto Final\obj\Debug\Proyecto_Final.Resources.resources
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\mi repo\Tp-sanz\Proyecto Final\obj\Debug\Proyecto Final.vbproj.GenerateResource.cache
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\mi repo\Tp-sanz\Proyecto Final\obj\Debug\Proyecto Final.vbproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\mi repo\Tp-sanz\Proyecto Final\obj\Debug\Proyecto Final.exe
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\mi repo\Tp-sanz\Proyecto Final\obj\Debug\Proyecto Final.xml
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\mi repo\Tp-sanz\Proyecto Final\obj\Debug\Proyecto Final.pdb

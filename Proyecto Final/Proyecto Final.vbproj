@@ -98,6 +98,12 @@
     <Compile Include="frmDatosCliente.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmDetalleArticulo.Designer.vb">
+      <DependentUpon>frmDetalleArticulo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDetalleArticulo.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmLogIn.Designer.vb">
       <DependentUpon>frmLogIn.vb</DependentUpon>
     </Compile>
@@ -193,6 +199,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\auriculares.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i9x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\i9.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -52,6 +52,7 @@ Partial Class frmPrincipal
         Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.tslBienvenido = New System.Windows.Forms.ToolStripLabel()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.imgDefault = New System.Windows.Forms.PictureBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -62,16 +63,15 @@ Partial Class frmPrincipal
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
-        Me.imgDefault = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.ToolStrip1.SuspendLayout()
         Me.Panel1.SuspendLayout()
+        CType(Me.imgDefault, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.imgDefault, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -108,14 +108,14 @@ Partial Class frmPrincipal
         '
         Me.IntelToolStripMenuItem.Image = Global.Proyecto_Final.My.Resources.Resources.images
         Me.IntelToolStripMenuItem.Name = "IntelToolStripMenuItem"
-        Me.IntelToolStripMenuItem.Size = New System.Drawing.Size(270, 34)
+        Me.IntelToolStripMenuItem.Size = New System.Drawing.Size(155, 34)
         Me.IntelToolStripMenuItem.Text = "Intel"
         '
         'AMToolStripMenuItem
         '
         Me.AMToolStripMenuItem.Image = Global.Proyecto_Final.My.Resources.Resources.AMD_Arrows
         Me.AMToolStripMenuItem.Name = "AMToolStripMenuItem"
-        Me.AMToolStripMenuItem.Size = New System.Drawing.Size(270, 34)
+        Me.AMToolStripMenuItem.Size = New System.Drawing.Size(155, 34)
         Me.AMToolStripMenuItem.Text = "AMD"
         '
         'MotherboardsToolStripMenuItem
@@ -275,7 +275,6 @@ Partial Class frmPrincipal
         '
         'Panel1
         '
-        Me.Panel1.Controls.Add(Me.imgDefault)
         Me.Panel1.Controls.Add(Me.Label5)
         Me.Panel1.Controls.Add(Me.Label4)
         Me.Panel1.Controls.Add(Me.Label3)
@@ -291,6 +290,17 @@ Partial Class frmPrincipal
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(1388, 338)
         Me.Panel1.TabIndex = 2
+        '
+        'imgDefault
+        '
+        Me.imgDefault.Image = Global.Proyecto_Final.My.Resources.Resources.auriculares
+        Me.imgDefault.Location = New System.Drawing.Point(-12, 556)
+        Me.imgDefault.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.imgDefault.Name = "imgDefault"
+        Me.imgDefault.Size = New System.Drawing.Size(1454, 618)
+        Me.imgDefault.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.imgDefault.TabIndex = 3
+        Me.imgDefault.TabStop = False
         '
         'Label5
         '
@@ -387,17 +397,6 @@ Partial Class frmPrincipal
         Me.PictureBox6.TabIndex = 4
         Me.PictureBox6.TabStop = False
         '
-        'imgDefault
-        '
-        Me.imgDefault.Image = Global.Proyecto_Final.My.Resources.Resources.auriculares
-        Me.imgDefault.Location = New System.Drawing.Point(-20, 0)
-        Me.imgDefault.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.imgDefault.Name = "imgDefault"
-        Me.imgDefault.Size = New System.Drawing.Size(1454, 618)
-        Me.imgDefault.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.imgDefault.TabIndex = 3
-        Me.imgDefault.TabStop = False
-        '
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.Proyecto_Final.My.Resources.Resources.Logo_HUERGO_GAMING1
@@ -414,6 +413,7 @@ Partial Class frmPrincipal
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1432, 1002)
+        Me.Controls.Add(Me.imgDefault)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.ToolStrip1)
         Me.Controls.Add(Me.PictureBox1)
@@ -424,12 +424,12 @@ Partial Class frmPrincipal
         Me.ToolStrip1.PerformLayout()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        CType(Me.imgDefault, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.imgDefault, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
