@@ -22,24 +22,27 @@ Partial Class frmCarrito
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.ListBox1 = New System.Windows.Forms.ListBox()
+        Me.Lstcarrito = New System.Windows.Forms.ListBox()
         Me.cmdEliminar = New System.Windows.Forms.Button()
         Me.cmdVaciar = New System.Windows.Forms.Button()
         Me.cmdComprar = New System.Windows.Forms.Button()
         Me.cmdVolver = New System.Windows.Forms.Button()
         Me.lblPrecio = New System.Windows.Forms.Label()
         Me.txtPrecio = New System.Windows.Forms.TextBox()
+        Me.Lstprecios = New System.Windows.Forms.ListBox()
         Me.SuspendLayout()
         '
-        'ListBox1
+        'Lstcarrito
         '
-        Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.ItemHeight = 20
-        Me.ListBox1.Location = New System.Drawing.Point(18, 18)
-        Me.ListBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(950, 464)
-        Me.ListBox1.TabIndex = 0
+        Me.Lstcarrito.FormattingEnabled = True
+        Me.Lstcarrito.ItemHeight = 20
+        Me.Lstcarrito.Items.AddRange(New Object() {"hola", "chau"})
+        Me.Lstcarrito.Location = New System.Drawing.Point(18, 18)
+        Me.Lstcarrito.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Lstcarrito.Name = "Lstcarrito"
+        Me.Lstcarrito.Size = New System.Drawing.Size(950, 464)
+        Me.Lstcarrito.TabIndex = 0
+        Me.Lstcarrito.UseWaitCursor = True
         '
         'cmdEliminar
         '
@@ -100,18 +103,28 @@ Partial Class frmCarrito
         Me.txtPrecio.Size = New System.Drawing.Size(148, 26)
         Me.txtPrecio.TabIndex = 6
         '
+        'Lstprecios
+        '
+        Me.Lstprecios.FormattingEnabled = True
+        Me.Lstprecios.ItemHeight = 20
+        Me.Lstprecios.Location = New System.Drawing.Point(1029, 18)
+        Me.Lstprecios.Name = "Lstprecios"
+        Me.Lstprecios.Size = New System.Drawing.Size(211, 464)
+        Me.Lstprecios.TabIndex = 7
+        '
         'frmCarrito
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(988, 663)
+        Me.ClientSize = New System.Drawing.Size(983, 663)
+        Me.Controls.Add(Me.Lstprecios)
         Me.Controls.Add(Me.txtPrecio)
         Me.Controls.Add(Me.lblPrecio)
         Me.Controls.Add(Me.cmdVolver)
         Me.Controls.Add(Me.cmdComprar)
         Me.Controls.Add(Me.cmdVaciar)
         Me.Controls.Add(Me.cmdEliminar)
-        Me.Controls.Add(Me.ListBox1)
+        Me.Controls.Add(Me.Lstcarrito)
         Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "frmCarrito"
         Me.Text = "frmCarrito"
@@ -120,11 +133,12 @@ Partial Class frmCarrito
 
     End Sub
 
-    Friend WithEvents ListBox1 As ListBox
+    Friend WithEvents Lstcarrito As ListBox
     Friend WithEvents cmdEliminar As Button
     Friend WithEvents cmdVaciar As Button
     Friend WithEvents cmdComprar As Button
     Friend WithEvents cmdVolver As Button
     Friend WithEvents lblPrecio As Label
     Friend WithEvents txtPrecio As TextBox
+    Friend WithEvents Lstprecios As ListBox
 End Class

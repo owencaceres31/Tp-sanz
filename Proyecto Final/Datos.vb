@@ -7,5 +7,6 @@
     Public Usuario As String
     Public Contraseña As String
     Public Direccion As String
+    Public tipoproducto As String
 
 End Module

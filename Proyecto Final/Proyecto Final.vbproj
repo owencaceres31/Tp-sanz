@@ -139,7 +139,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Resources\Modulo.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="frmCarrito.resx">
