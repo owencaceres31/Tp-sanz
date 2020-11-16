@@ -22,9 +22,16 @@ Partial Class frmDetalleArticulo
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.SuspendLayout()
+        '
+        'frmDetalleArticulo
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(805, 525)
+        Me.Name = "frmDetalleArticulo"
         Me.Text = "frmDetalleArticulo"
+        Me.ResumeLayout(False)
+
     End Sub
 End Class

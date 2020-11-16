@@ -185,4 +185,13 @@
         PictureBox5.Image = My.Resources.ryzen53400
         imgDefault.Visible = False
     End Sub
+
+    Private Sub PictureBox7_Click(sender As Object, e As EventArgs) Handles PictureBox7.Click
+        frmCarrito.Show()
+
+    End Sub
+
+    Private Sub ToolStrip1_ItemClicked(sender As Object, e As ToolStripItemClickedEventArgs) Handles ToolStrip1.ItemClicked
+
+    End Sub
 End Class

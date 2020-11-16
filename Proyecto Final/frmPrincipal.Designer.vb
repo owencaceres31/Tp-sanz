@@ -23,6 +23,21 @@ Partial Class frmPrincipal
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
+        Me.tslCerrarSesion = New System.Windows.Forms.ToolStripLabel()
+        Me.tslBienvenido = New System.Windows.Forms.ToolStripLabel()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
+        Me.imgDefault = New System.Windows.Forms.PictureBox()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
         Me.tsddbProductos = New System.Windows.Forms.ToolStripDropDownButton()
         Me.ProcesadoresCPUToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.IntelToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -48,30 +63,17 @@ Partial Class frmPrincipal
         Me.MemoriasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PenDrivesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.tsbMisDatos = New System.Windows.Forms.ToolStripButton()
-        Me.tslCerrarSesion = New System.Windows.Forms.ToolStripLabel()
-        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
-        Me.tslBienvenido = New System.Windows.Forms.ToolStripLabel()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
-        Me.imgDefault = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
         Me.ToolStrip1.SuspendLayout()
         Me.Panel1.SuspendLayout()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.imgDefault, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.imgDefault, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -80,13 +82,168 @@ Partial Class frmPrincipal
         Me.ToolStrip1.AutoSize = False
         Me.ToolStrip1.Dock = System.Windows.Forms.DockStyle.None
         Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
-        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsddbProductos, Me.tsbMisDatos, Me.tslCerrarSesion, Me.ToolStripSeparator1, Me.tslBienvenido})
+        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsddbProductos, Me.tsbMisDatos, Me.tslCerrarSesion, Me.ToolStripSeparator2, Me.tslBienvenido})
         Me.ToolStrip1.Location = New System.Drawing.Point(2, 177)
         Me.ToolStrip1.Name = "ToolStrip1"
         Me.ToolStrip1.Padding = New System.Windows.Forms.Padding(0, 0, 3, 0)
-        Me.ToolStrip1.Size = New System.Drawing.Size(1431, 38)
+        Me.ToolStrip1.Size = New System.Drawing.Size(1417, 38)
         Me.ToolStrip1.TabIndex = 1
         Me.ToolStrip1.Text = "ToolStrip1"
+        '
+        'tslCerrarSesion
+        '
+        Me.tslCerrarSesion.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
+        Me.tslCerrarSesion.IsLink = True
+        Me.tslCerrarSesion.Name = "tslCerrarSesion"
+        Me.tslCerrarSesion.Size = New System.Drawing.Size(116, 33)
+        Me.tslCerrarSesion.Text = "Cerrar Sesión"
+        '
+        'tslBienvenido
+        '
+        Me.tslBienvenido.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
+        Me.tslBienvenido.Name = "tslBienvenido"
+        Me.tslBienvenido.Size = New System.Drawing.Size(99, 33)
+        Me.tslBienvenido.Text = "Bienvenido"
+        '
+        'Panel1
+        '
+        Me.Panel1.Controls.Add(Me.imgDefault)
+        Me.Panel1.Controls.Add(Me.Label5)
+        Me.Panel1.Controls.Add(Me.Label4)
+        Me.Panel1.Controls.Add(Me.Label3)
+        Me.Panel1.Controls.Add(Me.Label2)
+        Me.Panel1.Controls.Add(Me.Label1)
+        Me.Panel1.Controls.Add(Me.PictureBox5)
+        Me.Panel1.Controls.Add(Me.PictureBox3)
+        Me.Panel1.Controls.Add(Me.PictureBox4)
+        Me.Panel1.Controls.Add(Me.PictureBox2)
+        Me.Panel1.Controls.Add(Me.PictureBox6)
+        Me.Panel1.Location = New System.Drawing.Point(22, 251)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(1388, 338)
+        Me.Panel1.TabIndex = 2
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(1114, 280)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(57, 20)
+        Me.Label5.TabIndex = 13
+        Me.Label5.Text = "Label5"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(846, 280)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(57, 20)
+        Me.Label4.TabIndex = 12
+        Me.Label4.Text = "Label4"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(578, 280)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(57, 20)
+        Me.Label3.TabIndex = 11
+        Me.Label3.Text = "Label3"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(309, 280)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(57, 20)
+        Me.Label2.TabIndex = 10
+        Me.Label2.Text = "Label2"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(33, 280)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(57, 20)
+        Me.Label1.TabIndex = 9
+        Me.Label1.Text = "Label1"
+        '
+        'PictureBox7
+        '
+        Me.PictureBox7.Image = Global.Proyecto_Final.My.Resources.Resources.shopping_cart
+        Me.PictureBox7.Location = New System.Drawing.Point(1422, 177)
+        Me.PictureBox7.Name = "PictureBox7"
+        Me.PictureBox7.Size = New System.Drawing.Size(45, 38)
+        Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox7.TabIndex = 3
+        Me.PictureBox7.TabStop = False
+        '
+        'imgDefault
+        '
+        Me.imgDefault.Image = Global.Proyecto_Final.My.Resources.Resources.auriculares
+        Me.imgDefault.Location = New System.Drawing.Point(-57, 0)
+        Me.imgDefault.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.imgDefault.Name = "imgDefault"
+        Me.imgDefault.Size = New System.Drawing.Size(1454, 618)
+        Me.imgDefault.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.imgDefault.TabIndex = 3
+        Me.imgDefault.TabStop = False
+        '
+        'PictureBox5
+        '
+        Me.PictureBox5.Location = New System.Drawing.Point(1119, 26)
+        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(225, 231)
+        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox5.TabIndex = 8
+        Me.PictureBox5.TabStop = False
+        '
+        'PictureBox3
+        '
+        Me.PictureBox3.Location = New System.Drawing.Point(850, 26)
+        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(225, 231)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox3.TabIndex = 7
+        Me.PictureBox3.TabStop = False
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.Location = New System.Drawing.Point(314, 26)
+        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(225, 231)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox4.TabIndex = 6
+        Me.PictureBox4.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Location = New System.Drawing.Point(582, 26)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(225, 231)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 5
+        Me.PictureBox2.TabStop = False
+        '
+        'PictureBox6
+        '
+        Me.PictureBox6.Location = New System.Drawing.Point(38, 26)
+        Me.PictureBox6.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(225, 231)
+        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox6.TabIndex = 4
+        Me.PictureBox6.TabStop = False
         '
         'tsddbProductos
         '
@@ -252,156 +409,6 @@ Partial Class frmPrincipal
         Me.tsbMisDatos.Size = New System.Drawing.Size(120, 33)
         Me.tsbMisDatos.Text = "Mis Datos"
         '
-        'tslCerrarSesion
-        '
-        Me.tslCerrarSesion.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
-        Me.tslCerrarSesion.IsLink = True
-        Me.tslCerrarSesion.Name = "tslCerrarSesion"
-        Me.tslCerrarSesion.Size = New System.Drawing.Size(116, 33)
-        Me.tslCerrarSesion.Text = "Cerrar Sesión"
-        '
-        'ToolStripSeparator1
-        '
-        Me.ToolStripSeparator1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
-        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 38)
-        '
-        'tslBienvenido
-        '
-        Me.tslBienvenido.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
-        Me.tslBienvenido.Name = "tslBienvenido"
-        Me.tslBienvenido.Size = New System.Drawing.Size(99, 33)
-        Me.tslBienvenido.Text = "Bienvenido"
-        '
-        'Panel1
-        '
-        Me.Panel1.Controls.Add(Me.Label5)
-        Me.Panel1.Controls.Add(Me.Label4)
-        Me.Panel1.Controls.Add(Me.Label3)
-        Me.Panel1.Controls.Add(Me.Label2)
-        Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Controls.Add(Me.PictureBox5)
-        Me.Panel1.Controls.Add(Me.PictureBox3)
-        Me.Panel1.Controls.Add(Me.PictureBox4)
-        Me.Panel1.Controls.Add(Me.PictureBox2)
-        Me.Panel1.Controls.Add(Me.PictureBox6)
-        Me.Panel1.Location = New System.Drawing.Point(22, 251)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1388, 338)
-        Me.Panel1.TabIndex = 2
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(1114, 280)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(57, 20)
-        Me.Label5.TabIndex = 13
-        Me.Label5.Text = "Label5"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(846, 280)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(57, 20)
-        Me.Label4.TabIndex = 12
-        Me.Label4.Text = "Label4"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(578, 280)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(57, 20)
-        Me.Label3.TabIndex = 11
-        Me.Label3.Text = "Label3"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(309, 280)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(57, 20)
-        Me.Label2.TabIndex = 10
-        Me.Label2.Text = "Label2"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(33, 280)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(57, 20)
-        Me.Label1.TabIndex = 9
-        Me.Label1.Text = "Label1"
-        '
-        'PictureBox5
-        '
-        Me.PictureBox5.Location = New System.Drawing.Point(1119, 26)
-        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(225, 231)
-        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox5.TabIndex = 8
-        Me.PictureBox5.TabStop = False
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.Location = New System.Drawing.Point(850, 26)
-        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(225, 231)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox3.TabIndex = 7
-        Me.PictureBox3.TabStop = False
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.Location = New System.Drawing.Point(314, 26)
-        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(225, 231)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox4.TabIndex = 6
-        Me.PictureBox4.TabStop = False
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Location = New System.Drawing.Point(582, 26)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(225, 231)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 5
-        Me.PictureBox2.TabStop = False
-        '
-        'PictureBox6
-        '
-        Me.PictureBox6.Location = New System.Drawing.Point(38, 26)
-        Me.PictureBox6.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(225, 231)
-        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox6.TabIndex = 4
-        Me.PictureBox6.TabStop = False
-        '
-        'imgDefault
-        '
-        Me.imgDefault.Image = Global.Proyecto_Final.My.Resources.Resources.auriculares
-        Me.imgDefault.Location = New System.Drawing.Point(-12, 556)
-        Me.imgDefault.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.imgDefault.Name = "imgDefault"
-        Me.imgDefault.Size = New System.Drawing.Size(1454, 618)
-        Me.imgDefault.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.imgDefault.TabIndex = 3
-        Me.imgDefault.TabStop = False
-        '
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.Proyecto_Final.My.Resources.Resources.Logo_HUERGO_GAMING1
@@ -413,12 +420,18 @@ Partial Class frmPrincipal
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
+        'ToolStripSeparator2
+        '
+        Me.ToolStripSeparator2.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
+        Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(6, 38)
+        '
         'frmPrincipal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1432, 1002)
-        Me.Controls.Add(Me.imgDefault)
+        Me.ClientSize = New System.Drawing.Size(1476, 1002)
+        Me.Controls.Add(Me.PictureBox7)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.ToolStrip1)
         Me.Controls.Add(Me.PictureBox1)
@@ -429,12 +442,13 @@ Partial Class frmPrincipal
         Me.ToolStrip1.PerformLayout()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.imgDefault, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.imgDefault, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
@@ -464,7 +478,6 @@ Partial Class frmPrincipal
     Friend WithEvents PenDrivesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents tsbMisDatos As ToolStripButton
     Friend WithEvents tslCerrarSesion As ToolStripLabel
-    Friend WithEvents ToolStripSeparator1 As ToolStripSeparator
     Friend WithEvents tslBienvenido As ToolStripLabel
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Label5 As Label
@@ -482,4 +495,6 @@ Partial Class frmPrincipal
     Friend WithEvents NVIDIAToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AMDToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents imgDefault As PictureBox
+    Friend WithEvents PictureBox7 As PictureBox
+    Friend WithEvents ToolStripSeparator2 As ToolStripSeparator
 End Class

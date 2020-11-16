@@ -148,6 +148,9 @@
     <EmbeddedResource Include="frmDatosCliente.resx">
       <DependentUpon>frmDatosCliente.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmDetalleArticulo.resx">
+      <DependentUpon>frmDetalleArticulo.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLogIn.resx">
       <DependentUpon>frmLogIn.vb</DependentUpon>
     </EmbeddedResource>
@@ -305,6 +308,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\revolver.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-cart.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

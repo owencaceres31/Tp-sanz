@@ -45,3 +45,4 @@ C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\mi repo\Tp-sanz\Proy
 C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\mi repo\Tp-sanz\Proyecto Final\obj\Debug\Proyecto Final.exe
 C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\mi repo\Tp-sanz\Proyecto Final\obj\Debug\Proyecto Final.xml
 C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\mi repo\Tp-sanz\Proyecto Final\obj\Debug\Proyecto Final.pdb
+C:\Users\User\Desktop\Cosas Del cole\Desarrollo de Sistemas\mi repo\Tp-sanz\Proyecto Final\obj\Debug\Proyecto_Final.frmDetalleArticulo.resources
